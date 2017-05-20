@@ -1,0 +1,63 @@
+.col-md-4{
+	padding-bottom:15%;
+}
+
+.col-md-4 img{
+	width:20%;
+	display:inline-block;
+	margin:0px 2px 0px 2px
+}
+
+.col-md-8 p{
+ 	display:inline-block;
+ 	text-indent: 50px;
+ 	line-height: 24px;
+ }
+
+#img-profile{
+	width:30%;
+	margin:0px 5px 25px 0px;
+}
+
+.img-thumbnail{
+	margin:4px;
+}
+
+.footer.text-center{color:white;}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  color:black:;
+
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 50px;
+  background-color: #000000;
+  color:#9d9d9d;
+  padding-top:15px;
+  margin-top:10px;
+
+}
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
