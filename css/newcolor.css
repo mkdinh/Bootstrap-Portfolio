@@ -1,11 +1,31 @@
 h1{color:#7BAFD4;}
-
 h2{color:#7BAFD4;}
 .navbar.navbar-inverse.navbar-fixed-top{background-color:#7BAFD4;color:black;}
 .navbar-header{background-color:#7BAFD4;color:#000000;}
 .navbar-toggle{background-color:#7BAFD4;}
-.navbar-nav{background-color:#7BAFD4;}
+.navbar-nav{background-color:#7BAFD4; color:#000;}
 .nav{background-color:#7BAFD4;}
-.navbar-inverse{border-color:#7BAFD4;}
-a.navbar-brand{color:black;}
+.navbar-inverse .navbar-brand{color:black; font-size:200%; font-weight:bold;}
 .footer.text-center{color:white;}
+
+.footer.text-center{color:white;}
+
+.navbar-collapse{
+  background-color:#7BAFD4;
+}
+.navbar{
+  background-color:#7BAFD4;
+}
+.navbar-inverse{
+	border-color:#7BAFD4;
+	color:#000;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	border-color:#7BAFD4;
+	color:#000;
+	font-weight:bold;
+}
+
+.col-md-8.text-left,.col-md-3{background-color:#ffffff; margin:10px; padding-bottom:10px;}
+
